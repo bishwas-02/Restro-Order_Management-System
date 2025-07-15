@@ -87,7 +87,7 @@ const RecentOrders = () => {
                   <td className="p-4">{formatDateAndTime(order.orderDate)}</td>
                   <td className="p-4">{order.items?.length || 0} Items</td>
                   <td className="p-4">Table - {order.table?.tableNo || "N/A"}</td>
-                  <td className="p-4">₹{order.billTotalWithTax?.toFixed(2) || order.bills?.totalWithTax?.toFixed(2) || "0.00"}</td>
+                  <td className="p-4">Rs {order.billTotalWithTax?.toFixed(2) || order.bills?.totalWithTax?.toFixed(2) || "0.00"}</td>
                   <td className="p-4">{order.paymentMethod || "N/A"}</td>
                 </tr>
               ))

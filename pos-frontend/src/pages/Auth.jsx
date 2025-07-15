@@ -28,6 +28,8 @@ const Auth = () => {
           welcoming atmosphere, and they’ll keep coming back."
           <br />
           <span className="block mt-4 text-yellow-400">- Founder of Restro</span>
+          <span className="block mt-2 text-sm text-gray-400">Bishwas Acharya</span>
+          <span className="block mt-1 text-xs text-gray-500">POS System</span>
         </blockquote>
       </div>
 
